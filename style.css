@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding: 0;
-  background-color: rgb(221, 184, 137);
+  background-color: rgb(90, 74, 60);
 }
 
 .calculator-grid {
@@ -9,15 +9,33 @@ body {
   justify-content: center;
   align-content: center;
   min-height: 100vh;
+  margin: 10px;
 
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: 120px repeat(5, 100px);
 }
-
+.calculator-grid > button {
+    font-size: 2rem;
+    margin: 0.1rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.calculator-grid > button:hover {
+  background-color: rgb(182, 182, 182);
+}
 
 .display {
   grid-column: 1 / span 4;
-  background: brown;
+  background: rgba(232, 152, 94, 0.6);
+  border-radius: 15px;
+  color: bisque;
+  font-weight: 800;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 6rem;
+  text-align: center;
+  padding: 10px;
+  
+ 
 }
 
 .doble {
