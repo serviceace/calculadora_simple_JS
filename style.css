@@ -32,7 +32,8 @@ body {
   font-weight: 800;
   font-family:'Courier New', Courier, monospace;
   font-size: 6rem;
-  text-align: center;
+  text-align: right;     /*     Texto alineado a la derecha        */
+  align-content:center;  /*     Contenido alineado en el centro de la celda        */
   padding: 10px;
   
  
